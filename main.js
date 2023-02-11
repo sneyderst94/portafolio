@@ -1,6 +1,7 @@
-const nav = document.querySelector(".nav");
+const visible = document.querySelector(".visible");
 const menuMobile = document.querySelector(".menu__mobile");
 
 menuMobile.addEventListener("click", () => {
-    nav.classList.toggle("none")
+    visible.classList.toggle("visible")
+
 });
