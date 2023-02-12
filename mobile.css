@@ -198,3 +198,37 @@ body {
         height: 50px;
     }
 }
+@media (max-width:450px){
+    .section1 {
+        width: 100%;
+    }
+    .experience__text {
+        width: 90%;
+    }
+    .experience__info {
+        width: 90%;
+    }
+    .section4 h2 {
+        text-align: center;
+    }
+    .icons__contact {
+        width: 90%;
+        margin: 30px 10px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   .icon__shape__contact {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   }
+   .logo__contact {
+    margin: 0;
+   }
+   .text__contact {
+    margin: 10px 0;
+    line-height: 30px;
+   }
+}
