@@ -202,8 +202,14 @@ body {
     #section1 {
         width: 100%;
     }
+    .experience__data {
+        width: 100%;
+    }
     .experience__text {
         width: 90%;
+    }
+    .experience__text p {
+        width: 100%;
     }
     .experience__info {
         width: 90%;
